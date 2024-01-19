@@ -1,0 +1,23 @@
+.todo-item label {
+  user-select: none;
+  transition: 500ms ease-in-out;
+}
+
+.todo-item > input[type="checkbox"] {
+  display: none;
+}
+
+.todo-item > input:checked + label {
+  text-decoration: line-through;
+  opacity: 0.25;
+}
+
+.todo-item > i.fa-dumpster-fire {
+  color: rgb(167, 36, 24);
+  opacity: 0.25;
+  transition: 250ms ease-in-out;
+}
+
+.todo-item > i.fa-dumpster-fire:hover {
+  opacity: 1;
+}
