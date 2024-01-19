@@ -65,8 +65,8 @@ const Home = () => {
   };
 
   return (
-    <div className="row">
-      <div className="col-8 offset-2 d-flex flex-column align-items-center gap-2">
+    <div className="row mx-3">
+      <div className="col-sm-8 offset-sm-2 d-flex flex-column align-items-center gap-2">
         <h1>Todo List</h1>
         <form className="w-100" onSubmit={(ev) => handleSubmit(ev)}>
           <input
